@@ -1,0 +1,19 @@
+ 
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package textgameprototype;
+import java.util.regex.*;
+import java.util.Scanner;
+import java.util.ArrayList;
+/**
+ *Provide a way to speak to individual characters. created whenever a character is spoken to, destroyed when their interaction ends.
+ * @author TauCode999
+ */
+ 
+ public class SpeechEngine {
+ 
+ 
+ }
