@@ -8,7 +8,7 @@ import java.util.regex.*;
 
 /**
  *
- * @author Administrator
+ * @author TauCode999
  */
 public class Objects {
 // Objects: Hammer, Nail, Nothing
@@ -123,7 +123,7 @@ public class Objects {
  };
  
  
- 
+ public static LatNoun Winner = Player;
  
  
  
