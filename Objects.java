@@ -95,6 +95,7 @@ public class Objects {
   
          
      static  NounWord clemensName = new NounWord("clemen",NounEndings.THIRDMF, true, "s","t");
+    static NounWord evilKing = new Nounword("re",NounEndings.THIRDMF, true, "x", "g");
  
      static NounWord me = new NounWord("",NounEndings.EGO, false);
  static final LatNoun Player = new LatNoun("You are yourself","Look in a mirror!",Forum,me) {
@@ -129,6 +130,16 @@ public class Objects {
   static final LatNoun Clemens = new LatNoun("Clemens, servus Caecilii.","Clemens, servus Caecilii, in horto est cenam gustantis.", Market, clemensName )
  { public boolean handle() {return false;}
 };
+  static final LatNoun Rex = new LatNoun("Malus Rex.", "Polydectes, rex insulae Seriphi, stat accipens donos.", Party,evilKing) {
+  public boolean handle() {
+      boolean retVal = false;
+  if (Syntax.V = Verbs.SPEAK)
+  {}
+ return retVal;
+  }
+  
+  };
+    
   static final LatNoun Cena = new LatNoun("Cena.","Cena est bonam.",Player, new NounWord("cen",NounEndings.FIRST,false)) {
   public boolean handle() {return false;}};
   
@@ -152,5 +163,5 @@ public class Objects {
   }
   };
  
- static final LatNoun[] mNouns = { Player, Clemens, Cena, Book};
+ static final LatNoun[] mNouns = { Player, Clemens, Cena, Book, Rex};
 }
